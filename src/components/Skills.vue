@@ -5,6 +5,7 @@
       <v-layout justify-center wrap row>
         <!-- <v-flex lg4> -->
         <v-card class="mx-2" shaped width="800px">
+          <v-card-title>Programming Languages 💻</v-card-title>
           <v-list>
             <v-list-item>
               <v-list-item-icon>
