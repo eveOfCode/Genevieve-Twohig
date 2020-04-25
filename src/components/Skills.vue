@@ -60,14 +60,6 @@
                 <v-icon>fas fa-edit</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
-                <v-list-item-title>Tableau</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-            <v-list-item>
-              <v-list-item-icon>
-                <v-icon>fas fa-edit</v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
                 <v-list-item-title>R</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
