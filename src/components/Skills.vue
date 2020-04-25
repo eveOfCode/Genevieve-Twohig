@@ -1,22 +1,20 @@
 <template>
   <div style="height:100vh" class="">
-    <v-container>
-      <h1>Skills</h1>
-      <v-layout justify-center wrap row>
-        <!-- <v-flex lg4> -->
-        <v-card class="mx-2" shaped width="800px">
+    <v-container fluid>
+      <v-layout justify-center align-center row wrap>
+        <v-card class="mx-2" shaped width="900px">
+          <v-card-title class="display-2 font-weight-light" text-center
+            >Skills</v-card-title
+          >
           <v-list>
             <v-list-item v-for="(skill, index) in Skills.skills" :key="index">
-              <v-list-item-icon>
-                <v-avatar><img :src="skill.image"/></v-avatar>
-              </v-list-item-icon>
+              <v-list-item-avatar><img :src="skill.image"/></v-list-item-avatar>
               <v-list-item-content>
                 <v-list-item-title v-text="skill.name"></v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-list>
         </v-card>
-        <!-- </v-flex> -->
       </v-layout>
     </v-container>
   </div>
