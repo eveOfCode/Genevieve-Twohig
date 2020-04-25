@@ -1,4 +1,36 @@
 {
-    "skill": "Vue JS",
-    "skill_image": 
+"skills": [
+    {
+        "name": "Vue JS",
+        "image": "/vuejs.png"
+    },
+    {
+        "name": "React",
+        "image": "/react.svg"
+    },
+    {
+        "name": "Vuetify",
+        "image": "/vuetify.png"
+    },
+    {
+        "name": "Material UI",
+        "image": "/material ui.png"
+    },
+    {
+        "name": "JavaScript",
+        "image": "/javascript.svg"
+    },
+    {
+        "name": "TypeScript",
+        "image": "/typescript.png"
+    },
+    {
+        "name": "Python",
+        "image": "/python.png"
+    },
+    {
+        "name": "R",
+        "image": "/r.png"
+    }
+ ]
 }

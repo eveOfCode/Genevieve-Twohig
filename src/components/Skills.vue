@@ -5,62 +5,13 @@
       <v-layout justify-center wrap row>
         <!-- <v-flex lg4> -->
         <v-card class="mx-2" shaped width="800px">
-          <v-card-title>Programming Languages 💻</v-card-title>
           <v-list>
-            <v-list-item>
+            <v-list-item v-for="(skill, index) in Skills.skills" :key="index">
               <v-list-item-icon>
-                <v-icon>fas fa-edit</v-icon>
+                <v-avatar><img :src="skill.image"/></v-avatar>
               </v-list-item-icon>
               <v-list-item-content>
-                <v-list-item-title>Vue JS</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-            <v-list-item>
-              <v-list-item-icon>
-                <v-icon>fas fa-edit</v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
-                <v-list-item-title>React</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-            <v-list-item>
-              <v-list-item-icon>
-                <v-icon>fas fa-edit</v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
-                <v-list-item-title>Vuetify and Material UI</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-            <v-list-item>
-              <v-list-item-icon>
-                <v-icon>fas fa-edit</v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
-                <v-list-item-title>JavaScript</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-            <v-list-item>
-              <v-list-item-icon>
-                <v-icon>fas fa-edit</v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
-                <v-list-item-title>TypeScript</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-            <v-list-item>
-              <v-list-item-icon>
-                <v-icon>fas fa-edit</v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
-                <v-list-item-title>Python</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-            <v-list-item>
-              <v-list-item-icon>
-                <v-icon>fas fa-edit</v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
-                <v-list-item-title>R</v-list-item-title>
+                <v-list-item-title v-text="skill.name"></v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-list>
@@ -72,7 +23,12 @@
 </template>
 
 <script>
+import Skills from "../data/skills.json";
 export default {
-  data: () => ({})
+  data() {
+    return {
+      Skills
+    };
+  }
 };
 </script>
