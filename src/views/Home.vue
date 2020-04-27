@@ -3,8 +3,8 @@
     <Name />
     <Skills />
     <Work />
-    <Contact />
     <Fun />
+    <Contact />
   </div>
 </template>
 
