@@ -3,7 +3,7 @@
     <Name />
     <Skills />
     <Work />
-    <Volunteer />
+    <Contact />
     <Fun />
   </div>
 </template>
@@ -12,7 +12,7 @@
 // @ is an alias to /src
 import Name from "@/components/Name";
 import Skills from "@/components/Skills";
-import Volunteer from "@/components/Volunteer";
+import Contact from "@/components/Contact";
 import Work from "@/components/Work";
 import Fun from "@/components/Fun";
 
@@ -21,7 +21,7 @@ export default {
   components: {
     Name,
     Skills,
-    Volunteer,
+    Contact,
     Work,
     Fun
   }
