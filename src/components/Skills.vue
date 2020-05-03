@@ -6,14 +6,28 @@
           <v-card-title class="display-2 font-weight-light" text-center
             >Skills</v-card-title
           >
-          <v-list>
+          <v-container>
+            <v-layout row="" wrap>
+              <v-flex lg6 v-for="(skill, index) in Skills.skills" :key="index">
+                <v-list-item>
+                  <v-list-item-avatar
+                    ><img :src="skill.image"
+                  /></v-list-item-avatar>
+                  <v-list-item-content>
+                    <v-list-item-title v-text="skill.name"></v-list-item-title>
+                  </v-list-item-content>
+                </v-list-item>
+              </v-flex>
+            </v-layout>
+          </v-container>
+          <!-- <v-list>
             <v-list-item v-for="(skill, index) in Skills.skills" :key="index">
               <v-list-item-avatar><img :src="skill.image"/></v-list-item-avatar>
               <v-list-item-content>
                 <v-list-item-title v-text="skill.name"></v-list-item-title>
               </v-list-item-content>
             </v-list-item>
-          </v-list>
+          </v-list> -->
         </v-card>
       </v-layout>
     </v-container>

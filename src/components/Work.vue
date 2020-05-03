@@ -1,5 +1,5 @@
 <template>
-  <v-container fill-height>
+  <v-container>
     <h1>Work</h1>
     <v-layout justify-center text-center wrap row>
       <v-card
@@ -8,7 +8,7 @@
         v-for="(job, index) in Work.jobs"
         :key="index"
       >
-        <v-img :src="job.image" class="white--text align-end">
+        <v-img :src="job.image" class="white--text align-end" height="500px">
           <v-card-title class="display-1 d-inline">{{
             job.company
           }}</v-card-title>
