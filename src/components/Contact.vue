@@ -1,7 +1,7 @@
 <template>
   <v-container fill-height>
     <v-layout justify-center text-center wrap row>
-      <v-card class="mx-2" width="900px">
+      <v-card class="mx-2" width="900px" shaped>
         <h1>Let's Chat! 👋</h1>
         <v-card-text
           >Have any interesting projects in mind? Want to keep up with

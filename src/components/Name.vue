@@ -12,7 +12,10 @@
       fill-height=""
     >
       <v-flex mb-4 xs-12>
-        <h1 class="display-4 font-weight-light mb-3 white--text">
+        <h1
+          class="display-4 font-weight-light mb-3 white--text"
+          style="font-famly: 'Arial', Helvetica, sans-serif;"
+        >
           Genevieve Twohig
         </h1>
       </v-flex>

@@ -16,5 +16,17 @@
             "link": "https://medium.com/@gen.twohig/can-you-get-into-university-if-you-are-homeschooled-the-answer-is-yes-70f338393ef",
             "description": "I was homeschooled my whole life before going to university. I am going into my 4th year of University as a Math and Computer Science double major."
         }
+     ],
+     "events": [
+         {
+             "name": "Nova Scotia Open Data Competition",
+             "text": "A two day competition hosted by Dalhousie University where participants pitch a solution in 2 minutes surrounding an economic or health-care issue. The solution must include the use of at least one Nova Scotia open data. I had a fun and challenging time!",
+             "image": "/NS Flag.svg"
+         },
+         {
+            "name": "CAN CWiC: Canadian Celebration Of Women In Computing",
+            "text": "Can-CWiC or the Canadian Celebration Of Women in Computing conference is what truly inspired and motivated me to pursue my goals. It was the first time where I got to see and meet so many women working in tech. It got me over my expectation that I had to be more like a man to be able to be taken seriously. 10/10 recommeend for women pursuing a career in computing -  this event will get you hyped up!",
+            "image": "/cancwic.jpg"
+        }
      ]
 }

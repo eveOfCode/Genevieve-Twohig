@@ -40,6 +40,21 @@
         </v-card>
       </v-layout>
     </v-container>
+    <v-container>
+      <h2>Cool Events I've Gone To</h2>
+      <v-layout justify-center align-center row>
+        <v-flex
+          lg6
+          class="pa-2 "
+          v-for="(event, index) in Fun.events"
+          :key="index"
+        >
+          <v-img :src="event.image" contain width="500px" />
+          <v-card-title>{{ event.name }}</v-card-title>
+          <v-card-text>{{ event.text }}</v-card-text>
+        </v-flex>
+      </v-layout>
+    </v-container>
   </div>
 </template>
 
