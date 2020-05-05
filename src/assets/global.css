@@ -1,0 +1,11 @@
+.section_headers {
+    text-align: center; 
+    font-family: 'Lucida Console', Courier, monospace; 
+    letter-spacing: 3px; 
+    opacity: 0.91;
+    margin-bottom: 15px;
+}
+
+.rounded_card {
+    border-radius: 25px !important; 
+}

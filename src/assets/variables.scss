@@ -1,0 +1,9 @@
+$body-font-family: 'Work Sans', serif;
+$font-size-root: 60px;
+$headings: (
+  'h1': (
+    'size': 3.3125rem,
+    'line-height': 1.15em
+  )
+);
+@import '~vuetify/src/styles/styles.sass';

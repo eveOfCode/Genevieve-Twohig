@@ -1,12 +1,10 @@
 <template>
   <v-container>
-    <h1
-      style="text-align: center; font-family: 'Lucida Console', Courier, monospace; letter-spacing: 3px; opacity: 0.91;"
-    >
+    <h1 class="section_headers">
       SKILLS
     </h1>
     <v-layout justify-center align-center row wrap>
-      <v-card class="mt-4" shaped width="700px">
+      <v-card class="rounded_card" width="700px">
         <v-container>
           <v-layout
             justify-center
@@ -21,7 +19,10 @@
                   ><img :src="skill.image"
                 /></v-list-item-avatar>
                 <v-list-item-content>
-                  <v-list-item-title v-text="skill.name"></v-list-item-title>
+                  <v-list-item-title
+                    v-text="skill.name"
+                    style="color: grey"
+                  ></v-list-item-title>
                 </v-list-item-content>
               </v-list-item>
             </v-flex>

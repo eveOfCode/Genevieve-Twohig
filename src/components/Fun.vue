@@ -2,17 +2,16 @@
   <!-- style="height:100vh" -->
   <div class="">
     <v-container>
-      <h1>Blog</h1>
+      <h1 class="section_headers">Blog</h1>
       <v-layout justify-center align-center row>
         <v-card
-          shaped
           height="450px"
           width="350px"
-          class="mx-5 my-5"
+          class="mx-5 my-5 rounded_card"
           v-for="(article, index) in Fun.articles"
           :key="index"
         >
-          <v-card shaped class="mt-4 mx-5"
+          <v-card class="mt-4 mx-5 rounded_card"
             ><v-img height="200px" src="article1_image.png"></v-img
           ></v-card>
           <a
@@ -41,7 +40,7 @@
       </v-layout>
     </v-container>
     <v-container>
-      <h2>Cool Events I've Gone To</h2>
+      <h1 class="section_headers">Cool Events I've Gone To</h1>
       <v-layout justify-center align-center row>
         <v-flex
           lg6
@@ -51,7 +50,7 @@
         >
           <v-img :src="event.image" contain width="500px" />
           <v-card-title>{{ event.name }}</v-card-title>
-          <v-card-text>{{ event.text }}</v-card-text>
+          <v-card-text style="color: grey">{{ event.text }}</v-card-text>
         </v-flex>
       </v-layout>
     </v-container>

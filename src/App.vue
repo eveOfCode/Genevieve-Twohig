@@ -1,6 +1,5 @@
 <template>
-  <v-app
-  >
+  <v-app>
     <v-content>
       <router-view></router-view>
     </v-content>
@@ -16,3 +15,6 @@ export default {
   })
 };
 </script>
+<style >
+@import url("./assets/global.css");
+</style>
