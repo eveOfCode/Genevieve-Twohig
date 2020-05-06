@@ -21,12 +21,14 @@
          {
              "name": "Nova Scotia Open Data Competition",
              "text": "A two day competition hosted by Dalhousie University where participants pitch a solution in 2 minutes surrounding an economic or health-care issue. The solution must include the use of at least one Nova Scotia open data. I had a fun and challenging time!",
-             "image": "/NS Flag.svg"
+             "image": "/NS Flag.svg",
+             "link": "https://www.dal.ca/faculty/management/school-of-information-management/news-events/open-data-contest.html"
          },
          {
             "name": "CAN CWiC: Canadian Celebration Of Women In Computing",
             "text": "Can-CWiC or the Canadian Celebration Of Women in Computing conference is what truly inspired and motivated me to pursue my goals. It was the first time where I got to see and meet so many women working in tech. It got me over my expectation that I had to be more like a man to be able to be taken seriously. 10/10 recommeend for women pursuing a career in computing -  this event will get you hyped up!",
-            "image": "/cancwic.jpg"
+            "image": "/cancwic.jpg",
+            "link": "https://www.can-cwic.ca/"
         }
      ]
 }

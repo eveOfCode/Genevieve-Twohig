@@ -5,7 +5,6 @@
       <h1 class="section_headers">Blog</h1>
       <v-layout justify-center align-center row>
         <v-card
-          height="450px"
           width="350px"
           class="mx-5 my-5 rounded_card"
           v-for="(article, index) in Fun.articles"
@@ -36,6 +35,7 @@
             {{ article.read_length }}
           </span>
           <v-card-text>{{ article.description }}</v-card-text>
+          <v-btn class="mx-4 my-5" target="blank" :href="article.link">Read more</v-btn>
         </v-card>
       </v-layout>
     </v-container>
@@ -51,6 +51,9 @@
           <v-img :src="event.image" contain width="500px" />
           <v-card-title>{{ event.name }}</v-card-title>
           <v-card-text style="color: grey">{{ event.text }}</v-card-text>
+          <v-btn target="blank" :href="event.link" class="mx-4"
+            >Read more</v-btn
+          >
         </v-flex>
       </v-layout>
     </v-container>
