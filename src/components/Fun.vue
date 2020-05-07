@@ -35,7 +35,9 @@
             {{ article.read_length }}
           </span>
           <v-card-text>{{ article.description }}</v-card-text>
-          <v-btn class="mx-4 my-5" target="blank" :href="article.link">Read more</v-btn>
+          <v-btn class="mx-4 my-5" target="blank" :href="article.link"
+            >Read more</v-btn
+          >
         </v-card>
       </v-layout>
     </v-container>
