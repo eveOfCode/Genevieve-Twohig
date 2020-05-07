@@ -1,7 +1,7 @@
 <template>
   <!-- style="height:100vh" -->
   <div class="">
-    <v-container>
+    <v-container class="mb-4">
       <h1 class="section_headers">Blog</h1>
       <v-layout justify-center align-center row>
         <v-card
@@ -41,7 +41,7 @@
         </v-card>
       </v-layout>
     </v-container>
-    <v-container>
+    <v-container class="mt-4">
       <h1 class="section_headers">Cool Events I've Gone To</h1>
       <v-layout justify-center align-center row>
         <v-flex

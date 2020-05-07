@@ -1,34 +1,39 @@
 <template>
-  <v-container fill-height>
-    <v-layout justify-center text-center wrap row>
-      <v-card class="mx-2 rounded_card" width="900px">
-        <h1 class="section_headers">Let's Chat! 👋</h1>
-        <v-card-text
-          >Have any interesting projects in mind? Want to keep up with
-          me?</v-card-text
-        >
-        <v-card-text>Contact me or follow me on LinkedIn!</v-card-text>
+  <div style="height:90vh" class="mt-5">
+    <v-container fill-height height="100vh">
+      <v-layout align-center justify-center text-center wrap row>
+        <v-flex lg6 sm12>
+          <v-card class="rounded_card ml-4">
+            <h1 class="section_headers">{{ Contact.section_title }}</h1>
+            <v-card-text>{{ Contact.text }} </v-card-text>
 
-        <h2 style="color:rgba(255, 99, 71, 0.5); margin-bottom: 15px;">
-          <span style="color: grey; font-size: 14px;">email:</span>
-          gen.twohig@gmail.com
-        </h2>
+            <h2 style="color:rgba(255, 99, 71, 0.5); margin-bottom: 15px;">
+              <span style="color: grey; font-size: 14px;">email:</span>
+              {{ Contact.email }}
+            </h2>
 
-        <v-btn
-          icon
-          target="blank"
-          href="https://www.linkedin.com/in/genevieve-twohig-11623615a/"
-          class="mb-4"
-        >
-          <v-icon color="blue" large>fab fa-linkedin</v-icon>
-        </v-btn>
-      </v-card>
-    </v-layout>
-  </v-container>
+            <v-btn
+              icon
+              target="blank"
+              :href="Contact.linkedin_link"
+              class="mb-4"
+            >
+              <v-icon color="blue" large>fab fa-linkedin</v-icon>
+            </v-btn>
+          </v-card>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </div>
 </template>
 
 <script>
+import Contact from "../data/contact.json";
 export default {
-  data: () => ({})
+  data() {
+    return {
+      Contact
+    };
+  }
 };
 </script>

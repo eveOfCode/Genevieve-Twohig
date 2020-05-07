@@ -1,13 +1,20 @@
 <template>
-  <v-container>
-    <h1 class="section_headers">About Me</h1>
-    <v-layout justify-space-around="" row wrap>
-      <p>{{ About.text }}</p>
-      <v-card height="280" width="373" class="d-flex flex-row-reverse">
-        <v-img src="About.image" height="280" width="373"></v-img
-      ></v-card>
-    </v-layout>
-  </v-container>
+  <div style="height:90vh" class="mt-5">
+    <v-container>
+      <h1 class="section_headers">{{ About.section_title }}</h1>
+      <v-layout justify-space-around="" row wrap>
+        <p style="color: grey">{{ About.text }}</p>
+        <v-card class="pa-4 rounded_card">
+          <v-card width="373" height="280" class="rounded_card"
+            ><v-img :src="About.image" height="280" width="373"
+          /></v-card>
+          <v-card-subtitle class="text-center">{{
+            About.image_subtitle
+          }}</v-card-subtitle>
+        </v-card>
+      </v-layout>
+    </v-container>
+  </div>
 </template>
 
 <script>

@@ -1,10 +1,7 @@
-{
-    "about": [
         {
-            "text": "My name is Genevieve. originally from Indonesia but I'm a certified world citizen.",
+            "section_title": "About Me",
+            "text": "My name is Genevieve. I'm from Indonesia and also certified world citizen.",
             "image": "/CANCWIC 2019 02.jpg",
-            "image_subtitle": "I"
+            "image_subtitle": "That's me in the grey coat!"
         }
-     ]
-}
     
