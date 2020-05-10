@@ -6,7 +6,7 @@
       <v-layout justify-center align-center row>
         <v-card
           width="350px"
-          class="mx-5 my-5 rounded_card"
+          class="mx-5 my-3 rounded_card"
           v-for="(article, index) in Fun.articles"
           :key="index"
         >
@@ -51,7 +51,11 @@
           :key="index"
         >
           <v-img :src="event.image" contain width="500px" />
-          <v-card-title>{{ event.name }}</v-card-title>
+          <h2
+            style="white-space: normal; font-size: 20px; margin-left: 15px; margin-top: 10px;"
+          >
+            {{ event.name }}
+          </h2>
           <v-card-text style="color: grey">{{ event.text }}</v-card-text>
           <v-btn target="blank" :href="event.link" class="mx-4"
             >Read more</v-btn

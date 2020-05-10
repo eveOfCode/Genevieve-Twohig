@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Name />
+    <!-- <Name /> -->
     <About />
     <Skills />
     <Work />
@@ -11,7 +11,7 @@
 
 <script>
 // @ is an alias to /src
-import Name from "@/components/Name";
+// import Name from "@/components/Name";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
@@ -21,7 +21,7 @@ import Fun from "@/components/Fun";
 export default {
   name: "home",
   components: {
-    Name,
+    // Name,
     About,
     Skills,
     Contact,

@@ -1,26 +1,36 @@
 <template>
-  <div style="height:150vh" class="mt-5">
-    <v-container class="mt-4">
+  <!-- style="height:150vh" -->
+  <div>
+    <v-container>
       <h1 class="section_headers">
         WORK
       </h1>
       <v-layout justify-center text-center row wrap>
-        <v-card
-          class="rounded_card"
+        <v-flex
+          lg6
+          md8
+          sm8
+          xs12
+          class="mt-4 px-4"
           v-for="(job, index) in Work.jobs"
           :key="index"
-          width="700px"
         >
-          <v-img :src="job.image" class="white--text align-end" height="500px">
-            <!-- d-inline -->
-            <v-card-title class="display-1 d-inline">{{
-              job.company
-            }}</v-card-title>
-          </v-img>
-          <v-card-text class="subtitle-1" style="text-align: left;">{{
-            job.description
-          }}</v-card-text>
-        </v-card>
+          <v-card class="rounded_card" width="700px">
+            <v-img
+              :src="job.image"
+              class="white--text align-end"
+              height="500px"
+            >
+              <!-- d-inline -->
+              <v-card-title class="display-1 d-inline">{{
+                job.company
+              }}</v-card-title>
+            </v-img>
+            <v-card-text class="subtitle-1" style="text-align: left;">{{
+              job.description
+            }}</v-card-text>
+          </v-card>
+        </v-flex>
       </v-layout>
     </v-container>
   </div>

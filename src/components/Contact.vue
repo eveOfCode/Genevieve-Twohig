@@ -4,7 +4,7 @@
       <v-layout align-center justify-center text-center wrap row>
         <v-flex lg6 sm12>
           <v-card class="rounded_card ml-4">
-            <h1 class="section_headers">{{ Contact.section_title }}</h1>
+            <h1 class="section_headers pa-2">{{ Contact.section_title }}</h1>
             <v-card-text>{{ Contact.text }} </v-card-text>
 
             <h2 style="color:rgba(255, 99, 71, 0.5); margin-bottom: 15px;">

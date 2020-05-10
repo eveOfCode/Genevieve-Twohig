@@ -5,16 +5,16 @@
         SKILLS
       </h1>
       <v-layout justify-center align-center row wrap>
-        <v-card class="rounded_card" width="700px">
+        <v-card class="rounded_card mx-3" width="700px">
           <v-container>
-            <v-layout
-              justify-center
-              align-center
-              row
-              wrap
-              style="padding-left: 100px"
-            >
-              <v-flex lg6 v-for="(skill, index) in Skills.skills" :key="index">
+            <v-layout justify-center align-center row wrap>
+              <v-flex
+                lg6
+                sm6
+                xs6
+                v-for="(skill, index) in Skills.skills"
+                :key="index"
+              >
                 <v-list-item>
                   <v-list-item-avatar
                     ><img :src="skill.image"
