@@ -1,5 +1,5 @@
 <template>
-  <div style="height:70vh" class="">
+  <div style="height:60vh" class="">
     <v-container>
       <h1 class="section_headers">
         MY SKILLS

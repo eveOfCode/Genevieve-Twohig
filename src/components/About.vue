@@ -1,5 +1,5 @@
 <template>
-  <div style="height:90vh" class="mt-5">
+  <div style="height:60vh" class="mt-5">
     <v-container>
       <h1 class="section_headers mb-4">{{ About.section_title }}</h1>
       <v-layout justify-center row wrap>
