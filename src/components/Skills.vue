@@ -2,7 +2,7 @@
   <div style="height:70vh" class="">
     <v-container>
       <h1 class="section_headers">
-        SKILLS
+        MY SKILLS
       </h1>
       <v-layout justify-center align-center row wrap>
         <v-card class="rounded_card mx-3" width="700px">
