@@ -7,7 +7,7 @@
       <v-layout justify-center align-center row wrap>
         <v-card class="rounded_card mx-3" width="700px">
           <v-container>
-            <v-layout justify-center align-center row wrap>
+            <v-layout justify-start="" align-center row wrap>
               <v-flex
                 lg6
                 sm6

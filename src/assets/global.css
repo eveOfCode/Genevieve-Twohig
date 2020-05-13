@@ -6,6 +6,15 @@
     margin-bottom: 15px;
 }
 
+.slogan {
+    text-align: center; 
+    font-family: 'Lucida Console', Courier, monospace; 
+    letter-spacing: 3px; 
+    color: white;
+    font-size: 50px;
+    white-space: normal;
+}
+
 .rounded_card {
     border-radius: 25px !important; 
 }

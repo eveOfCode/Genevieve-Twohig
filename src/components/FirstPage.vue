@@ -1,7 +1,11 @@
 <template>
   <v-card>
     <v-img src="/TopBanner.jpg">
-      <v-layout
+      <v-layout justify-center align-center text-center fill-height white--text>
+        <h1 class="slogan">Curious. Creative. Consistent.</h1>
+        <div style="margin-top: 100px" class="icon-scroll"></div>
+      </v-layout>
+      <!-- <v-layout
         fill-height=""
         class="pb-5"
         text-center
@@ -9,7 +13,7 @@
         align-end=""
       >
         <div class=" icon-scroll"></div>
-      </v-layout>
+      </v-layout> -->
     </v-img>
   </v-card>
 </template>

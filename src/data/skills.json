@@ -1,11 +1,19 @@
 {
 "skills": [
     {
-        "name": "Vue JS",
+        "name": "HTML5/CSS3",
+        "image": "/html5.png"
+    },
+    {
+        "name": "CSS3",
+        "image": "/css3.png"
+    },
+    {
+        "name": "Vue.js",
         "image": "/vuejs.png"
     },
     {
-        "name": "React",
+        "name": "React.js",
         "image": "/react.svg"
     },
     {
