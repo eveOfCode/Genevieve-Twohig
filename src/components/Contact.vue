@@ -1,5 +1,5 @@
 <template>
-  <div style="height:70vh" class="mt-5">
+  <!-- <div style="height:70vh" class="mt-5"> -->
     <v-container fill-height height="100vh">
       <v-layout align-center justify-center text-center wrap row>
         <v-flex lg6 sm12>
@@ -24,7 +24,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>
