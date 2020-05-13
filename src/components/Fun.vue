@@ -11,7 +11,7 @@
           :key="index"
         >
           <v-card class="mt-4 mx-5 rounded_card"
-            ><v-img height="200px" src="article1_image.png"></v-img
+            ><v-img height="200px" :src="article.img"></v-img
           ></v-card>
           <a
             style="text-decoration: none; color: black; "
