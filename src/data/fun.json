@@ -22,7 +22,7 @@
      "events": [
          {
              "name": "Nova Scotia Open Data Competition",
-             "text": "A two day competition hosted by Dalhousie University where participants pitch a solution in 2 minutes surrounding an economic or health-care issue. The solution must include the use of at least one Nova Scotia open data. I had a fun and challenging time!",
+             "text": "A two day competition hosted by Dalhousie University where participants pitch a solution in 2 minutes surrounding an economic or health-care issue. The solution must include the use of at least one Nova Scotia open data. My partner and I built a prototype of an app, using the Nova Scotia Open Data, to tackle the long waiting times in emergency room hospitals. It was a great experience and a lot of fun!",
              "image": "/NS Flag.svg",
              "link": "https://www.dal.ca/faculty/management/school-of-information-management/news-events/open-data-contest.html"
          },
