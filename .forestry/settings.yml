@@ -7,19 +7,15 @@ sections:
 - type: document
   path: src/data/work.json
   label: work
-  match: "**/*"
 - type: document
   path: src/data/fun.json
   label: fun
-  match: "**/*"
 - type: document
   path: src/data/contact.json
   label: contact
-  match: "**/*"
 - type: document
   path: src/data/about.json
   label: about
-  match: "**/*"
 - type: document
   path: src/data/skills.json
   label: skills
