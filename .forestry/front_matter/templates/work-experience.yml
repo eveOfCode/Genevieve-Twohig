@@ -1,0 +1,17 @@
+---
+label: work experience
+hide_body: true
+fields:
+- type: field_group_list
+  name: jobs
+  label: jobs
+  fields:
+  - type: text
+    name: company
+    label: company
+  - type: textarea
+    name: image
+    label: image
+  - type: textarea
+    name: description
+    label: description
