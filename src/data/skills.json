@@ -2,11 +2,11 @@
 "skills": [
     {
         "name": "HTML5",
-        "image": "/html5.png"
+        "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/html5.png?alt=media&token=140ba108-ab0d-4607-8078-9fc93e90a1a0"
     },
     {
         "name": "CSS3",
-        "image": "/css3.png"
+        "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/css3.png?alt=media&token=ce1fa39a-91d6-4285-9dfd-3451cf9e5107"
     },
     {
         "name": "Vue.js",
@@ -14,31 +14,31 @@
     },
     {
         "name": "React.js",
-        "image": "/react.svg"
+        "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/react.svg?alt=media&token=42a397b5-635f-4f0a-812a-7851c68ebdfb"
     },
     {
         "name": "Vuetify",
-        "image": "/vuetify.png"
+        "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/vuetify.png?alt=media&token=46d38446-7e22-47fb-8f70-b728941e5f74"
     },
     {
         "name": "Material UI",
-        "image": "/material ui.png"
+        "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/material%20ui.png?alt=media&token=13a0ccbf-49c6-485e-ad99-c8cc8d608c16"
     },
     {
         "name": "JavaScript",
-        "image": "/javascript.svg"
+        "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/javascript.svg?alt=media&token=a8400572-c523-4ffa-827a-d4dca7256a1b"
     },
     {
         "name": "TypeScript",
-        "image": "/typescript.png"
+        "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/typescript.png?alt=media&token=3e36b31f-4aba-42aa-9ac7-da5575de6230"
     },
     {
         "name": "Python",
-        "image": "/python.png"
+        "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/python.png?alt=media&token=658c0644-790d-4ac2-b79e-cc390ce936ea"
     },
     {
         "name": "R",
-        "image": "/r.png"
+        "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/r.png?alt=media&token=5d60c4a8-6b10-47dc-b6de-e591e6845835"
     }
  ]
 }
