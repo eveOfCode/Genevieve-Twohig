@@ -1,6 +1,8 @@
 <template>
   <v-card>
-    <v-img src="">
+    <v-img
+      src="https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/TopBanner.jpg?alt=media&token=a813bb91-80ec-4bda-bbb5-5430dab00b35"
+    >
       <v-layout justify-center align-center text-center fill-height white--text>
         <h1 class="slogan">Curious. Creative. Consistent.</h1>
         <div style="margin-top: 100px" class="icon-scroll"></div>
