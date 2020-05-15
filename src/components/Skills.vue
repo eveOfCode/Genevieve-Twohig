@@ -4,7 +4,7 @@
       MY SKILLS
     </h1>
     <v-layout justify-center align-center row wrap>
-      <v-card class="rounded_card mx-3" width="700px">
+      <v-card class="rounded_card mx-3" max-width="700px">
         <v-container>
           <v-layout justify-start="" align-center row wrap>
             <v-flex
