@@ -1,36 +1,36 @@
 {
-    "articles": [
-        {
-            "title": "Can you get into University if you are homeschooled? The answer is yes.",
-            "subtitle": "Biggest scam I’ve ever pulled off",
-            "date_published": "Apr 14",
-            "img": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/article1_image.png?alt=media&token=b905173d-9fc3-49d9-b658-b4c86321fdb5",
-            "read_length": "6 min",
-            "link": "https://medium.com/@gen.twohig/can-you-get-into-university-if-you-are-homeschooled-the-answer-is-yes-70f338393ef?source=friends_link&sk=0846c321e5ba02517061c6e9a5382ad0",
-            "description": "I was homeschooled my whole life before going to university. I am going into my 4th year of University as a Math and Computer Science double major."
-        },
-        {
-            "title": "How to get started with homeschooling",
-            "subtitle": "The start of academic freedom",
-            "date_published": "Apr 23",
-            "img": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/article2_image.jpeg?alt=media&token=0f1bd802-ce56-47c1-89bd-5cba1326ae23",
-            "read_length": "7 min",
-            "link": "https://medium.com/@gen.twohig/how-to-get-started-homeschooling-f99fc834d80b?source=friends_link&sk=895143a13f55d43ed131b3247cc75ed2",
-            "description": "First thing to do is to figure out your endgame. What do you plan to do once you graduate from homeschooling? This is a similar question asked to students graduating from high school: what do you plan to do after high school?"
-        }
-     ],
-     "events": [
-         {
-             "name": "Nova Scotia Open Data Competition",
-             "text": "A two day competition hosted by Dalhousie University where participants pitch a solution in 2 minutes surrounding an economic or health-care issue. The solution must include the use of at least one Nova Scotia open data. My partner and I built a prototype of an app, using the Nova Scotia Open Data, to tackle the long waiting times in emergency room hospitals. It was a great experience and a lot of fun!",
-             "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/NS%20Flag.svg?alt=media&token=336d5663-3263-4eaa-974f-d513579f51e3",
-             "link": "https://www.dal.ca/faculty/management/school-of-information-management/news-events/open-data-contest.html"
-         },
-         {
-            "name": "CAN CWiC: Canadian Celebration Of Women In Computing",
-            "text": "Can-CWiC or the Canadian Celebration Of Women in Computing conference is what truly inspired and motivated me to pursue my goals. It was the first time where I got to see and meet so many women working in tech. It got me over my expectation that I had to be more like a man to be able to be taken seriously. 10/10 recommeend for women pursuing a career in computing -  this event will get you hyped up!",
-            "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/cancwic.jpg?alt=media&token=5b5af9cf-0782-4981-b163-8e89fd060c3f",
-            "link": "https://www.can-cwic.ca/"
-        }
-     ]
+  "articles": [
+    {
+      "title": "Can you get into University if you are homeschooled? The answer is yes.",
+      "subtitle": "Biggest scam I’ve ever pulled off",
+      "date_published": "Apr 14",
+      "img": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/article1_image.png?alt=media&token=b905173d-9fc3-49d9-b658-b4c86321fdb5",
+      "read_length": "6 min",
+      "link": "https://medium.com/@gen.twohig/can-you-get-into-university-if-you-are-homeschooled-the-answer-is-yes-70f338393ef?source=friends_link&sk=0846c321e5ba02517061c6e9a5382ad0",
+      "description": "I was homeschooled my whole life before going to university. I am going into my 4th year of University as a Math and Computer Science double major."
+    },
+    {
+      "title": "How to get started with homeschooling",
+      "subtitle": "The start of academic freedom",
+      "date_published": "Apr 23",
+      "img": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/article2_image.jpeg?alt=media&token=0f1bd802-ce56-47c1-89bd-5cba1326ae23",
+      "read_length": "7 min",
+      "link": "https://medium.com/@gen.twohig/how-to-get-started-homeschooling-f99fc834d80b?source=friends_link&sk=895143a13f55d43ed131b3247cc75ed2",
+      "description": "First thing to do is to figure out your endgame. What do you plan to do once you graduate from homeschooling? This is a similar question asked to students graduating from high school: what do you plan to do after high school?"
+    }
+  ],
+  "events": [
+    {
+      "name": "Nova Scotia Open Data Competition",
+      "text": "A two day competition hosted by Dalhousie University where participants pitch a solution in 2 minutes surrounding an economic or health-care issue. The solution must include the use of at least one Nova Scotia open data. My partner and I built a prototype of an app, using the Nova Scotia Open Data, to tackle the long waiting times in emergency room hospitals. It was a great experience and a lot of fun!",
+      "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/NS%20Flag.svg?alt=media&token=336d5663-3263-4eaa-974f-d513579f51e3",
+      "link": "https://www.dal.ca/faculty/management/school-of-information-management/news-events/open-data-contest.html"
+    },
+    {
+      "name": "CAN CWiC: Canadian Celebration Of Women In Computing",
+      "text": "CAN-CWiC or the Canadian Celebration Of Women in Computing conference is what truly inspired and motivated me to pursue my goals. It was the first time where I got to see and meet so many women working in tech. It got me over my expectation that I had to be more like a man to be able to be taken seriously. 10/10 recommend for women pursuing a career in computing -  this event will get you hyped up!",
+      "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/cancwic.jpg?alt=media&token=5b5af9cf-0782-4981-b163-8e89fd060c3f",
+      "link": "https://www.can-cwic.ca/"
+    }
+  ]
 }
