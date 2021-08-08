@@ -4,8 +4,11 @@
             "company": "Vmo Solutions",
             "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/vmo%20pic.jpg?alt=media&token=05fb8e71-e592-451d-9849-7ec1073e3d98",
             "description": "I spent a summer building React components for a piece of software for a Halifax based software development company focusing on aviation software, Vmo Solutions. It was my first time working with a small team and I really enjoyed the ease of asking for help or input. I learned a very important user experience concept of testing what you built as if you were the client. This means being prepared for the user to, for example, input all kinds of weird characters into a text field. I got to learn a lot of aviation terms as well as how airports manage flight operations and crew. ✈️✈️✈️"
+        },
+        {
+            "company": "Acadia Institute of Data Analytics",
+            "image": "https://firebasestorage.googleapis.com/v0/b/genevievetwohig.appspot.com/o/aida%20bg.jpg?alt=media&token=c1d62ce3-a6ec-44c9-b0a4-36794247ea7c",
+            "description": "My very first WFH position and it was a very good experience! I learned a lot about real business applications of concepts I learned from my Data Analytics course. My favourite parts of this co-op experience was working with familiar friendly faces, making a data analytics activity for the WISE camp as well as getting to apply what I learned to real DA projects."
         }
-
-     ]
+    ]
 }
-    
