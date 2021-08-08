@@ -12,9 +12,10 @@ export default {
 
   data: () => ({
     //
-  })
+    // eslint-disable-next-line
+  }),
 };
 </script>
-<style >
+<style>
 @import url("./assets/global.css");
 </style>
